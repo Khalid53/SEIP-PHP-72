@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MENU | SLIDER | MODAL| THUMNAIL</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <div class="jumbotron mb-0">
+            <div class="container-fluid" style="width: 1450px">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 class="text-center">Some content goes here about jumbotron.</h1>
+                        <p class="text-center">Some content goes here about paragraph in the jumbotron. Some content goes here about paragraph in the jumbotron. Some content goes here about paragraph in the jumbotron.</p>
+                        <p class="text-center">Some content goes here about paragraph in the jumbotron. Some content goes here about paragraph in the jumbotron. Some content goes here about paragraph in the jumbotron.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<!----------------------------navigation bar------------------------------->
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark sticky-top" style="background-color: black !important;">
+        <div class="container-fluid" style="width: 1450px;">
+            <a href="" class="navbar-brand">
+                <img src="images/khalid2.jpg" alt="" height="30px;" />
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#newMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="newMenu">
+                <ul class="navbar-nav mr-auto">
+                    <li><a href="" class="nav-link">Home</a></li>
+                    <li><a href="" class="nav-link">About</a></li>
+                    <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Servic</a>
+                        <ul class="dropdown-menu bg-secondary">
+                            <li><a href="" class="nav-link">Servic One</a></li>
+                            <li><a href="" class="nav-link">Servic Two</a></li>
+                            <li><a href="" class="nav-link">Servic Three</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="" class="nav-link">Gallery</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li><a href="" class="nav-link" data-toggle="modal" data-target="#loginModal">Login</a></li>
+                    <li><a href="" class="nav-link" data-toggle="modal" data-target="#registrationModal">Registration</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-----------------------------------Slider---------------------------------------->
+    <section>
+        <div class="carousel slide" data-ride="carousel" id="newCarousel" data-interval="3000">
+            <ol class="carousel-indicators">
+                <li data-target="#newCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#newCarousel" data-slide-to="1"></li>
+                <li data-target="#newCarousel" data-slide-to="2"></li>
+                <li data-target="#newCarousel" data-slide-to="3"></li>
+                <li data-target="#newCarousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/c1.jpg" alt="" class="w-100" height="400">
+                    <div class="carousel-caption">
+                        <p>some content goes here about carousel caption</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/c2.jpg" alt="" class="w-100" height="400">
+                    <div class="carousel-caption">
+                        <p>some content goes here about carousel caption</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/c3.jpg" alt="" class="w-100" height="400">
+                    <div class="carousel-caption">
+                        <p>some content goes here about carousel caption</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/c4.jpg" alt="" class="w-100" height="400">
+                    <div class="carousel-caption">
+                        <p>some content goes here about carousel caption</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/c5.jpeg" alt="" class="w-100" height="400">
+                    <div class="carousel-caption">
+                        <p>some content goes here about carousel caption</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#newCarousel" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#newCarousel" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid" style="width: 1450px">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>This is card Header</h2>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-justify">
+                                <img src="images/khalid.jpg" alt="" class="w-25 img-thumbnail" height="150px" />
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body.Some conteng goes here about card body.
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body. Some conteng goes here about card body.
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body. Some conteng goes here about card body.<br/>
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body. Some conteng goes here about card body.
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body. Some conteng goes here about card body.<br/>
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body. Some conteng goes here about card body.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <p>Some conteng goes here about card footer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>This is card Header</h2>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-justify">
+                                <img src="images/khalid.jpg" alt="" class="w-25 img-thumbnail" height="150px" />
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body.Some conteng goes here about card body.
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body. Some conteng goes here about card body.
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body. Some conteng goes here about card body.<br/>
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body. Some conteng goes here about card body.
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body. Some conteng goes here about card body.<br/>
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body. Some conteng goes here about card body.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <p>Some conteng goes here about card footer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>This is card Header</h2>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-justify">
+                                <img src="images/khalid.jpg" alt="" class="w-25 img-thumbnail" height="150px" />
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body.Some conteng goes here about card body.
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body. Some conteng goes here about card body.
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body. Some conteng goes here about card body.<br/>
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body. Some conteng goes here about card body.
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body. Some conteng goes here about card body.<br/>
+                                Some conteng goes here about card body. Some conteng goes here about card body.Some conteng goes here about card body. Some conteng goes here about card body.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <p>Some conteng goes here about card footer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--------------------Modal------------------>
+    <!--------------------Login Modal------------------>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="modal fade" id="loginModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="text-success text-center">Please login using your valid email address & passowrd !!</h4>
+                                <button type="button" data-dismiss="modal" class="btn btn-danger">&Cross;</button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" method="POST">
+                                    <div class="form-group">
+                                        <label for="user_name">User Name</label>
+                                        <input type="text" name="user_name" id="user_name" class="form-control" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email_address">Email Address</label>
+                                        <input type="email" name="email_address" id="email_address" class="form-control" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label></label>
+                                        <input type="submit" name="btn" id="btn" value="LogIn" class="btn btn-primary btn-block" />
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------Registration Modal---------------------------------->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="modal fade" id="registrationModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="text-success text-center">Please sign-up using your valid information !!</h4>
+                                <button type="button" data-dismiss="modal" class="btn btn-danger">&Cross;</button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" method="POST">
+                                    <div class="form-group">
+                                        <label for="first_name">First Name</label>
+                                        <input type="text" name="first_name" id="first_name" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="last_name">Last Name</label>
+                                        <input type="text" name="last_name" id="last_name" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" name="email" id="email" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password">Password</label>
+                                        <input type="password" name="password" id="password" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="phone_number">Phone Number</label>
+                                        <input type="number" name="phone_number" id="phone_number" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="date_of_birth">Date Of Birth</label>
+                                        <input type="date" name="date_of_birth" id="date_of_birth" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label><input type="radio" name="gender">Male</label>
+                                        <label><input type="radio" name="gender">Female</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="address">Address</label>
+                                        <textarea type="text" name="address" id="address" class="form-control" rows="5"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="district_name">District Name</label>
+                                        <select type="text" name="district_name" id="district_name" class="form-control">
+                                            <option value=" ">---Select District Name---</option>
+                                            <option value="Dhaka">Dhaka</option>
+                                            <option value="Dinajpur">Dinajpur</option>
+                                            <option value="Rangpur">Rangpur</option>
+                                            <option value="Rajshahi">Rajshahi</option>
+                                            <option value="Barishal">Barishal</option>
+                                            <option value="Silhet">Silhet</option>
+                                            <option value="Noakhali">Noakhali</option>
+                                            <option value="Chitagang">Chitagang</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="images">Images</label>
+                                        <input type="file" name="images" id="images" accept="image/*" multiple class="form-control" />
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" name="agree" id="agree" value="agree" class="form-check-input" /> HTML
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" name="agree" id="agree" value="agree" class="form-check-input" /> CSS
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" name="agree" id="agree" value="agree" class="form-check-input" /> JS
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <lebel></lebel>
+                                        <input type="submit" name="btn" id="btn" value="Registration" class="btn btn-success btn-block" />
+                                        </label>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

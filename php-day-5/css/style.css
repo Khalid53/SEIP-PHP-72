@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+
+}
+.col-1{ width: 8.33%; }
+.col-2{ width: 16.66%; }
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.33%; }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+.row:after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+[class*='col-']{
+    float: left;
+    border: 1px solid gray;
+}
+.container{ width: 90%; height: auto; margin: auto;}
+.header-height{ height: 200px; }
+.menu-height{ height: 50px; }
+.content-height{ height: 700px; }
+.big-footer-height{ height: 400px; }
+.footer-height{ height: 40px; }
+
+.main-ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.main-ul li{
+    float: left;
+    width: 120px;
+    border: 1px solid gray;
+}
+.main-ul li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    height: 46px;
+    padding: 15px;
+    background-color: #000000;
+    color: #ffffff;
+    transition: 1s;
+}
+.main-ul li a:hover{
+    background-color: #1c7430;
+    color: red;
+}
+/*.div-one{*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    background-color: red;*/
+/*    margin: 60px 0 0 50px;*/
+/*    !*border-radius: 50%;*!*/
+/*    transform: skewY(30deg);*/
+/*    float: left;*/
+/*}*/
+/*.div-two{*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    background-color: red;*/
+/*    margin: 60px 0 0 5px;*/
+/*    !*border-radius: 50%;*!*/
+/*    transform: skewY(-30deg);*/
+/*    float: left;*/
+/*}*/
+/*.div-one{*/
+/*    height: 200px;*/
+/*    width: 20px;*/
+/*    background-color: red;*/
+/*    margin: 60px 0 0 70px;*/
+/*    !*border-radius: 50%;*!*/
+/*    transform: skew(-30deg);*/
+/*    float: left;*/
+/*}*/
+/*.div-two{*/
+/*    height: 200px;*/
+/*    width: 20px;*/
+/*    background-color: red;*/
+/*    margin: 60px 0 0 100px;*/
+/*    !*border-radius: 50%;*!*/
+/*    transform: skew(30deg);*/
+/*    float: left;*/
+/*}*/
+/*.div-three{*/
+/*    height: 20px;*/
+/*    width: 160px;*/
+/*    margin: 180px 0 0 60px;*/
+/*    background-color: red;*/
+/*}*/
+
+/*.div-three{*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    margin: 50px 0 0 50px;*/
+/*    !*border-left: 3px solid red;*!*/
+/*    border: 30px outset  red;*/
+/*    !*border-radius: 0px 100px 100px 0px;*!*/
+/*    !*border-right: none;*!*/
+/*}*/
+.div-three{
+    height: 250px;
+    width: 600px;
+    margin: 50px 0 0 50px;
+    /*background-color: red;*/
+    /*background: linear-gradient(to top, red, green, blue, black, white, darkblue);*/
+
+    float: left;
+    /*transform: scale(1);*/
+    /*transform: rotateY(0deg);*/
+    /*transition: 1s;*/
+    border: 1px solid;
+    animation: bitm;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+/*@keyframes bitm {*/
+/*    0%{ background-color: green; }*/
+/*    25%{ background-color: red; }*/
+/*    50%{ background-color: blue; }*/
+/*    75%{ background-color: orange; }*/
+/*    100%{ background-color: yellow; }*/
+
+/*}*/
+
+/*@keyframes bitm {*/
+/*    0%{ background-color: green; width: 200px; height: 200px;}*/
+/*    25%{ background-color: red; width: 600px; height: 200px; }*/
+/*    50%{ background-color: blue; width: 200px; height: 200px; }*/
+/*    75%{ background-color: orange; height: 600px; width: 200px; }*/
+/*    100%{ background-color: yellow; height: 200px; width: 200px; }*/
+/*}*/
+
+/*@keyframes bitm {*/
+/*    0%{ background-color: green; transform: rotate(0deg) scale(1); }*/
+/*    50%{ background-color: red; transform: rotate(360deg) scale(1.5); }*/
+/*    100%{ background-color: blue; transform: rotate(0deg) scale(1); }*/
+/*}*/
+@keyframes bitm {
+     0%{ background: url("../images/s1.jpg"); }
+     25%{ background: url("../images/s2.jpg"); }
+     50%{ background: url("../images/s3.jpg"); }
+     75%{ background: url("../images/s4.jpg"); }
+     100%{ background: url("../images/s5.jpg"); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (max-width: 500px) {*/
+/*    body{*/
+/*        background-color: red;*/
+/*    }*/
+
+/*}*/
+/*@media screen and (min-width: 550px) and (max-width: 650px) {*/
+/*    body{*/
+/*        background-color: green;*/
+/*    }*/
+
+/*}*/
+/*@media screen and (min-width: 700px) and (max-width: 1000px) {*/
+/*    body{*/
+/*        background-color: yellow;*/
+/*    }*/
+
+/*}*/

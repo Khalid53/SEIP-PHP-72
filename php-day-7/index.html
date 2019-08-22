@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <form action=" " method="post">
+                  <h1 class="text-md-center">Form Vertical</h1>
+                    <div class="form-group">
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" id="first_name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" id="last_name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone_number">Phone Number</label>
+                        <input type="number" name="phone_number" id="phone_number" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="date_of_birth">Date Of Birth</label>
+                        <input type="date" name="date_of_birth" id="date_of_birth" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label><input type="radio" name="gender">Male</label>
+                        <label><input type="radio" name="gender">Female</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea type="text" name="address" id="address" class="form-control" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="district_name">District Name</label>
+                        <select type="text" name="district_name" id="district_name" class="form-control">
+                            <option value=" ">---Select District Name---</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Dinajpur">Dinajpur</option>
+                            <option value="Rangpur">Rangpur</option>
+                            <option value="Rajshahi">Rajshahi</option>
+                            <option value="Barishal">Barishal</option>
+                            <option value="Silhet">Silhet</option>
+                            <option value="Noakhali">Noakhali</option>
+                            <option value="Chitagang">Chitagang</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="images">Images</label>
+                        <input type="file" name="images" id="images" accept="image/*" multiple class="form-control" />
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" name="agree" id="agree" value="agree" class="form-check-input" /> HTML
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" name="agree" id="agree" value="agree" class="form-check-input" /> CSS
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" name="agree" id="agree" value="agree" class="form-check-input" /> JS
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <lebel></lebel>
+                            <input type="submit" name="btn" id="btn" value="SubmiT" class="btn btn-success btn-block" />
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="col-sm-8">
+                <h1 class="text-center">Horizontal Form</h1>
+                <form action="" method="POST">
+                    <div class="form-group row">
+                        <label class="col-form-label col-sm-3">First Name</label>
+                        <div class="col-sm-9">
+                            <input type="text" name="first_name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-sm-3">Last Name</label>
+                        <div class="col-sm-9">
+                            <input type="text" name="last_name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-sm-3">Email</label>
+                        <div class="col-sm-9">
+                            <input type="email" name="email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-sm-3">Password</label>
+                        <div class="col-sm-9">
+                            <input type="password" name="password" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-sm-3">Phone Number</label>
+                        <div class="col-sm-9">
+                            <input type="number" name="phone_number" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-sm-3">Date Of Birth</label>
+                        <div class="col-sm-9">
+                            <input type="date" name="date_of_birth" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-sm-3">Gender</label>
+                        <div class="col-sm-9">
+                            <label><input type="radio" name="gender" value="male">Male</label>
+                            <label><input type="radio" name="gender" value="female">Female</label>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-sm-3">Address</label>
+                        <div class="col-sm-9">
+                            <textarea type="text" name="address" rows="5" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-sm-3">District Name</label>
+                        <div class="col-sm-9">
+                            <select type="text" name="district_name" class="form-control">
+                                <option>---Select District Name---</option>
+                                <option value="1">Dhaka</option>
+                                <option value="2">Dinajpur</option>
+                                <option value="3">Rajshahi</option>
+                                <option value="4">Rangpur</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-sm-3">Image</label>
+                        <div class="col-sm-9">
+                            <input type="file" name="image" accept="image/*" multiple class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-sm-3"></label>
+                        <div class="col-sm-9">
+                            <label class="form-check-label">
+                                <input type="checkbox" name="agree" class="form-check-input">I agree with terms & conditions
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-sm-3"></label>
+                        <div class="col-sm-9">
+                            <input type="submit" name="btn" value="SubmiT" class="btn btn-primary btn-block">
+                        </div>
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <table class="table table-bordered table-hover table-responsive">
+                        <thead class="table-info">
+                            <tr>
+                                <th>Full Name</th>
+                                <th>Email Address</th>
+                                <th>Phone Number</th>
+                                <th>Address</th>
+                                <th>City</th>
+                                <th>Country</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-success">
+                        <tr>
+                            <td>Mohammad Ameer</td>
+                            <td class="table-danger">ammer@gmail.com</td>
+                            <td>07865465465</td>
+                            <td>Karbala, Refinery Project</td>
+                            <td>Karbala</td>
+                            <td>Iraq</td>
+                        </tr>
+                        <tr>
+                            <td>Mohammad Ameer</td>
+                            <td>ammer@gmail.com</td>
+                            <td>07865465465</td>
+                            <td>Karbala, Refinery Project</td>
+                            <td>Karbala</td>
+                            <td>Iraq</td>
+                        </tr>
+                        <tr>
+                            <td>Mohammad Ameer</td>
+                            <td>ammer@gmail.com</td>
+                            <td>07865465465</td>
+                            <td>Karbala, Refinery Project</td>
+                            <td>Karbala</td>
+                            <td>Iraq</td>
+                        </tr>
+                        <tr>
+                            <td>Mohammad Ameer</td>
+                            <td>ammer@gmail.com</td>
+                            <td>07865465465</td>
+                            <td>Karbala, Refinery Project</td>
+                            <td>Karbala</td>
+                            <td>Iraq</td>
+                        </tr>
+                        <tr>
+                            <td>Mohammad Ameer</td>
+                            <td>ammer@gmail.com</td>
+                            <td>07865465465</td>
+                            <td>Karbala, Refinery Project</td>
+                            <td>Karbala</td>
+                            <td>Iraq</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                    <img src="images/pexels-photo-2607830.jpeg" alt="" height="100%" width="100%" class="rounded-circle" />
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
